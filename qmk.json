@@ -4,6 +4,7 @@
         ["contra", "benc34"],
         ["ferris/sweep", "benc34"],
         ["planck/rev6_drop", "benc34"],
-        ["janus", "benc34"]
+        ["janus", "benc34"],
+        ["keychron/v4/ansi", "benc60"]
     ]
 }
