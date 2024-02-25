@@ -86,9 +86,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	),
 
 	[_MOUSE] = LAYOUT_34(
-		KC_TAB,  CTRL_A,  KPOPEN,  KPUSER,  KC_BSPC,      KC_WH_L, KC_WH_D, KC_WH_U, KC_WH_R, XXXXXXX,
+		KC_TAB,  CTRL_A,  KPOPEN,  KPUSER,  DELWORD,      KC_WH_L, KC_WH_D, KC_WH_U, KC_WH_R, XXXXXXX,
 		KC_ESC,  ALT,     CTRL,    GUI,     KC_ENT,       KC_MS_L, KC_MS_D, KC_MS_U, KC_MS_R, TOGMOUS,
-		KC_SPC,  CUT,     COPY,    PASTE,   SELECT,       KC_BTN2, XXXXXXX, XXXXXXX, QK_BOOT, QK_RBT,
+		KC_SPC,  CUT,     COPY,    PASTE,   SELECT,       KC_BTN2, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
 		                           BASE,    _______,      KC_BTN1, KC_BTN3
 	),
 
@@ -109,7 +109,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[_MOD] = LAYOUT_34(
 		_______, _______, _______, _______, _______,      _______, _______, _______, _______, _______,
 		_______, _______, _______, _______, _______,      _______, GUI,     CTRL,    ALT,     _______,
-		_______, _______, _______, _______, _______,      _______, _______, _______, _______, _______,
+		_______, _______, _______, _______, _______,      _______, _______, _______, QK_BOOT, QK_RBT,
 		                           BASE,    _______,      ALT,     GUI
 	),
 };
